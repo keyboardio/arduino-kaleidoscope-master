@@ -1,0 +1,16 @@
+{
+   "packages" : [
+      {
+         "email" : "jesse@keyboard.io",
+         "help" : {
+            "online" : "https://kaleidoscope.readthedocs.io"
+         },
+         "maintainer" : "Keyboardio",
+         "name" : "keyboardio",
+         "platforms" : [
+         ],
+         "tools" : [],
+         "websiteURL" : "http://keyboard.io/"
+      }
+   ]
+}
