@@ -6,7 +6,7 @@
             "online" : "https://kaleidoscope.readthedocs.io"
          },
          "maintainer" : "Keyboardio",
-         "name" : "keyboardio",
+         "name" : "Kaleidoscope keyboards - nightly builds",
          "platforms" : [
             {
                "architecture" : "avr",
