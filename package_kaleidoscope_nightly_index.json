@@ -20,12 +20,12 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:0d57b15c4e30e2cad982d428395ec34126eab8a37eea6f92de06964a5b39b383",
+               "checksum" : "SHA-256:d070d64b020bc84454a6c34b8b3ec04dbdf3dc906563464fd849dbb2541541fb",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope keyboards - nightly builds",
-               "size" : 12156376,
+               "size" : 12155258,
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
@@ -39,7 +39,7 @@
                   }
                ],
                "url" : "https://raw.githubusercontent.com/keyboardio/arduino-kaleidoscope-nightly/master/builds//Kaleidoscope-master.tar.bz2",
-               "version" : "2020.12.202355S"
+               "version" : "2020.12.2100"
             }
          ],
          "tools" : [],
