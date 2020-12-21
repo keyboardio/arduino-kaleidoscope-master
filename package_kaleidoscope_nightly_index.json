@@ -6,7 +6,7 @@
             "online" : "https://kaleidoscope.readthedocs.io"
          },
          "maintainer" : "Keyboardio",
-         "name" : "Kaleidoscope keyboards - nightly builds",
+         "name" : "kaleidoscope_nightly",
          "platforms" : [
             {
                "architecture" : "avr",
@@ -24,7 +24,7 @@
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
-               "name" : "keyboardio",
+               "name" : "Kaleidoscope keyboards - nightly builds",
                "size" : 12156376,
                "toolsDependencies" : [
                   {
