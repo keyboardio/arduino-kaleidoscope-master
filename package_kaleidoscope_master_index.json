@@ -6,7 +6,7 @@
             "online" : "https://kaleidoscope.readthedocs.io"
          },
          "maintainer" : "Keyboardio",
-         "name" : "kaleidoscope_nightly",
+         "name" : "keyboardio",
          "platforms" : [
             {
                "architecture" : "avr",
@@ -77,15 +77,6 @@
                "version" : "2021.9.23074645"
             }
          ],
-         "websiteURL" : "http://keyboard.io/"
-      },
-      {
-         "email" : "jesse@keyboard.io",
-         "help" : {
-            "online" : "https://kaleidoscope.readthedocs.io"
-         },
-         "maintainer" : "Keyboardio",
-         "name" : "keyboardio",
          "tools" : [
             {
                "name" : "xpack-arm-none-eabi-gcc",
