@@ -59,17 +59,17 @@
                "toolsDependencies" : [
                   {
                      "name" : "xpack-arm-none-eabi-gcc",
-                     "packager" : "kaleidoscope_nightly",
+                     "packager" : "keyboardio",
                      "version" : "9.3.1-1.3"
                   },
                   {
                      "name" : "xpack-openocd",
-                     "packager" : "kaleidoscope_nightly",
+                     "packager" : "keyboardio",
                      "version" : "0.11.0-1"
                   },
                   {
                      "name" : "dfu-util",
-                     "packager" : "kaleidoscope_nightly",
+                     "packager" : "Keyboardio",
                      "version" : "0.10.0-arduino1"
                   }
                ],
@@ -77,6 +77,15 @@
                "version" : "2021.9.23074645"
             }
          ],
+         "websiteURL" : "http://keyboard.io/"
+      },
+      {
+         "email" : "jesse@keyboard.io",
+         "help" : {
+            "online" : "https://kaleidoscope.readthedocs.io"
+         },
+         "maintainer" : "Keyboardio",
+         "name" : "keyboardio",
          "tools" : [
             {
                "name" : "xpack-arm-none-eabi-gcc",
