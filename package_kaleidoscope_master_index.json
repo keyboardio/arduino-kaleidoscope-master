@@ -38,7 +38,7 @@
                      "version" : "6.3.0-arduino17"
                   }
                ],
-               "url" : "ssh://git@github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2021.11.23190011.tar.bz2",
+               "url" : "https:/github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2021.11.23190011.tar.bz2",
                "version" : "2021.11.23190011"
             },
             {
@@ -73,7 +73,7 @@
                      "version" : "0.10.0-arduino1"
                   }
                ],
-               "url" : "ssh://git@github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2021.11.23190011.tar.bz2",
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2021.11.23190011.tar.bz2",
                "version" : "2021.11.23190011"
             }
          ],
