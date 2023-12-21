@@ -10,7 +10,7 @@
          "platforms" : [
             {
                "architecture" : "avr",
-               "archiveFileName" : "Kaleidoscope-avr-2023.12.19182312.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-avr-2023.12.21180932.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Model 01"
@@ -20,12 +20,12 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:ff44efa41f72092755c45e5b892b22bd022f05f194020cd19dd52d1d17e784dd",
+               "checksum" : "SHA-256:3258ce9470445a7ff78e45cd80fca0c3366bd86e153a8b65f18fd6707bf8d499",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope keyboards",
-               "size" : 8570123,
+               "size" : 8568720,
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
@@ -38,24 +38,24 @@
                      "version" : "6.3.0-arduino17"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2023.12.19182312.tar.bz2",
-               "version" : "2023.12.19182312"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2023.12.21180932.tar.bz2",
+               "version" : "2023.12.21180932"
             },
             {
                "architecture" : "gd32",
-               "archiveFileName" : "Kaleidoscope-gd32-2023.12.19182312.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-gd32-2023.12.21180932.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Model 100"
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:87ff5e86c64c91affd67cc1f8a35cf6e64bbf497bbc82f255594eafb97cd36de",
+               "checksum" : "SHA-256:e1c557a4259b9682ed2afa36d31a54fc235812a6d09c24fc07de22f4c2ad2395",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope Keyboards (GD32)",
-               "size" : 8156379,
+               "size" : 8157537,
                "toolsDependencies" : [
                   {
                      "name" : "xpack-arm-none-eabi-gcc",
@@ -73,8 +73,8 @@
                      "version" : "0.11.0-arduino3"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2023.12.19182312.tar.bz2",
-               "version" : "2023.12.19182312"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2023.12.21180932.tar.bz2",
+               "version" : "2023.12.21180932"
             }
          ],
          "tools" : [
