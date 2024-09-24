@@ -413,8 +413,8 @@
           "name" : "nrfjprog",
           "version" : "9.4.0"
         }
-      ]
-         "websiteURL" : "http://keyboard.io/"
+      ],
+       "websiteURL" : "http://keyboard.io/"
       }
    ]
 }
