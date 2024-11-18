@@ -10,7 +10,7 @@
          "platforms" : [
             {
                "architecture" : "avr",
-               "archiveFileName" : "Kaleidoscope-avr-2024.11.11222300.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-avr-2024.11.18192211.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Model 01"
@@ -20,12 +20,12 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:666b12ae3c352e5edb8fc80088047d9505c3902790d4e0e17838becec0e586e7",
+               "checksum" : "SHA-256:cc3739c869e78d0f5fce0376dec536c736bf830f6b1cc0e58d25cc1eaff8dde7",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope keyboards",
-               "size" : 814122,
+               "size" : 824856,
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
@@ -38,24 +38,24 @@
                      "version" : "6.3.0-arduino17"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2024.11.11222300.tar.bz2",
-               "version" : "2024.11.11222300"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2024.11.18192211.tar.bz2",
+               "version" : "2024.11.18192211"
             },
             {
                "architecture" : "gd32",
-               "archiveFileName" : "Kaleidoscope-gd32-2024.11.11222300.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-gd32-2024.11.18192211.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Model 100"
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:5492411ddedc58bb52514a7de7397d54d07a46cfccb5535ea79e9ed362bea4f0",
+               "checksum" : "SHA-256:5e94fa4c32f5c31d7d85106caca969bf6da62e358edb9ec35d14bb92e7b8215a",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope Keyboards (GD32)",
-               "size" : 3115291,
+               "size" : 3117467,
                "toolsDependencies" : [
                   {
                      "name" : "xpack-arm-none-eabi-gcc",
@@ -73,24 +73,24 @@
                      "version" : "0.11.0-arduino3"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2024.11.11222300.tar.bz2",
-               "version" : "2024.11.11222300"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2024.11.18192211.tar.bz2",
+               "version" : "2024.11.18192211"
             },
             {
                "architecture" : "nrf52",
-               "archiveFileName" : "Kaleidoscope-nrf52-2024.11.11222300.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-nrf52-2024.11.18192211.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Preonic"
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:75ba6d93263d2bd2e31c5aa94732b57b06c0c22d6ece492cfdef8ec4a4662d96",
+               "checksum" : "SHA-256:94597cd3bddbdf88cd1bf8a09fbab05ea54485fb78a06b9ab6818b21abb80ade",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Keyboardio nRF52",
-               "size" : 21539557,
+               "size" : 21539068,
                "toolsDependencies" : [
                   {
                      "name" : "arm-none-eabi-gcc",
@@ -113,59 +113,59 @@
                      "version" : "0.11.0-arduino2"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-nrf52-2024.11.11222300.tar.bz2",
-               "version" : "2024.11.11222300"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-nrf52-2024.11.18192211.tar.bz2",
+               "version" : "2024.11.18192211"
             }
          ],
          "tools" : [
- 		{
-          "name": "arm-none-eabi-gcc",
-          "version": "9-2019q4",
-          "systems": [
             {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
-              "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
-              "size": "96613739"
+               "name" : "arm-none-eabi-gcc",
+               "systems" : [
+                  {
+                     "archiveFileName" : "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                     "checksum" : "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+                     "host" : "arm-linux-gnueabihf",
+                     "size" : "96613739",
+                     "url" : "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+                     "checksum" : "MD5:0dfa059aae18fcf7d842e30c525076a4",
+                     "host" : "aarch64-linux-gnu",
+                     "size" : "128670769",
+                     "url" : "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+                     "checksum" : "MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+                     "host" : "i686-mingw32",
+                     "size" : "153520070",
+                     "url" : "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip"
+                  },
+                  {
+                     "archiveFileName" : "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+                     "checksum" : "MD5:241b64f0578db2cf146034fc5bcee3d4",
+                     "host" : "x86_64-apple-darwin",
+                     "size" : "116770520",
+                     "url" : "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+                     "checksum" : "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+                     "host" : "x86_64-pc-linux-gnu",
+                     "size" : "116802378",
+                     "url" : "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+                     "checksum" : "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+                     "host" : "i686-pc-linux-gnu",
+                     "size" : "97427309",
+                     "url" : "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2"
+                  }
+               ],
+               "version" : "9-2019q4"
             },
-            {
-              "host": "aarch64-linux-gnu",
-              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
-              "checksum": "MD5:0dfa059aae18fcf7d842e30c525076a4",
-              "size": "128670769"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
-              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
-              "checksum": "MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
-              "size": "153520070"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
-              "checksum": "MD5:241b64f0578db2cf146034fc5bcee3d4",
-              "size": "116770520"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
-              "checksum": "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
-              "size": "116802378"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
-              "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
-              "size": "97427309"
-            }
-          ]
-        },
             {
                "name" : "xpack-arm-none-eabi-gcc",
                "systems" : [
