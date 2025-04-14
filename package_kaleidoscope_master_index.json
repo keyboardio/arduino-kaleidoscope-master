@@ -10,7 +10,7 @@
          "platforms" : [
             {
                "architecture" : "avr",
-               "archiveFileName" : "Kaleidoscope-avr-2025.4.12000859.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-avr-2025.4.14170203.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Model 01"
@@ -20,12 +20,12 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:27792a7b671f1d09a069eafffc580223b295ba3a17f617981a1a6a60d16c1ae9",
+               "checksum" : "SHA-256:982837c4554609446ffb4e5db82b5621f0d5279186dd8d2d15295809375a1a90",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope keyboards",
-               "size" : 586120,
+               "size" : 582839,
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
@@ -38,24 +38,24 @@
                      "version" : "6.3.0-arduino17"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2025.4.12000859.tar.bz2",
-               "version" : "2025.4.12000859"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-avr-2025.4.14170203.tar.bz2",
+               "version" : "2025.4.14170203"
             },
             {
                "architecture" : "gd32",
-               "archiveFileName" : "Kaleidoscope-gd32-2025.4.12000859.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-gd32-2025.4.14170203.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Model 100"
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:a6527c7bd4bd3df27a1942380bead9ba7bc91227305b0ff0d07b7d98833ca47f",
+               "checksum" : "SHA-256:d462834df57dbf166a803bc43417da5d7fd1451ebc2c79a9292d01fdb5f77769",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Kaleidoscope Keyboards (GD32)",
-               "size" : 2888652,
+               "size" : 2886429,
                "toolsDependencies" : [
                   {
                      "name" : "xpack-arm-none-eabi-gcc",
@@ -73,24 +73,24 @@
                      "version" : "0.11.0-arduino3"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2025.4.12000859.tar.bz2",
-               "version" : "2025.4.12000859"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-gd32-2025.4.14170203.tar.bz2",
+               "version" : "2025.4.14170203"
             },
             {
                "architecture" : "nrf52",
-               "archiveFileName" : "Kaleidoscope-nrf52-2025.4.12000859.tar.bz2",
+               "archiveFileName" : "Kaleidoscope-nrf52-2025.4.14170203.tar.bz2",
                "boards" : [
                   {
                      "name" : "Keyboardio Preonic"
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:3520abc97027bb52762b99eb7ad2e61178b7145f459449f55d776606a6d2b58e",
+               "checksum" : "SHA-256:7949fbf7e5bd91d03f8a3f79658492787b9b45043db1efcee644e9647aae89f7",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "Keyboardio nRF52",
-               "size" : 21473487,
+               "size" : 21472943,
                "toolsDependencies" : [
                   {
                      "name" : "arm-none-eabi-gcc",
@@ -113,8 +113,8 @@
                      "version" : "0.11.0-arduino2"
                   }
                ],
-               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-nrf52-2025.4.12000859.tar.bz2",
-               "version" : "2025.4.12000859"
+               "url" : "https://github.com/keyboardio/arduino-kaleidoscope-master/raw/main/builds/Kaleidoscope-nrf52-2025.4.14170203.tar.bz2",
+               "version" : "2025.4.14170203"
             }
          ],
          "tools" : [
